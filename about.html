@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>About | Eglise Pentecote | De Bujumbura</title>
+    <meta name="description" content="Welcome to Mar.Gregorios Orthodox Church, Thottapuzha Website">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Chrisbin Thomas">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="theme-color" content="#bc451d">
+
+    <!-- Favicon -->
+    <link href="img/logo.jpeg" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/style1.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+    $(document).ready(function() {
+    // Check if the URL has a .html extension
+    if (window.location.pathname.endsWith('.html')) {
+    // Remove the .html extension and update the URL
+    var newPath = window.location.pathname.replace('.html', '');
+    window.history.replaceState({}, document.title, newPath);
+    }
+    });
+    </script>
+</head>
+
+<body>
+    <div class="container-xxl p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 5rem; height: 5rem;" role="status">
+                <!-- <span class="sr-only">Loading...</span> -->
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+ 	<div id="tsparticles"></div>
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark-2 px-4 px-lg-5 py-3 py-lg-2">
+                <a href="" class="navbar-brand p-0">
+                    <!-- <h1 class="text-primary m-0"><i class="fa fa-church me-3"></i>Eglise Pentecote de Bujumbura<h1> -->
+                    <img src="img/logo.jpeg" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" aria-label="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="index.html" class="nav-item nav-link">Acceuil</a>
+                        <a href="javascript:void(0)" class="nav-item nav-link active">Apropos</a>
+                        <!-- <a href="service.html" class="nav-item nav-link">Service</a> -->
+                        <a href="events.html" class="nav-item nav-link">Evenement</a>
+                        <!-- <div class="nav-item dropdown"> -->
+                        <a href="devellopement.html" class="nav-item nav-link">Projet de Develloppement</a>
+                            <!-- <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a> -->
+                            <!-- <div class="dropdown-menu m-0">
+                                <a href="booking.html" class="dropdown-item">Booking</a>
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            </div> -->
+                        <!-- </div> -->
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="tel:+25779733075" class="btn btn-primary py-2 px-4"><i class="fa fa-phone"></i> +25779733075</a>
+                </div>
+            </nav>
+
+            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container text-center my-5 pt-5 pb-4">
+                    <h1 class="display-3 text-white mb-3 my-5 animated slideInDown">Apropos</h1>
+                    <h5 class="display-3 mb-3 my-5 animated slideInDown" id="namespace-shadow">Eglise Pentecote de Bujumbura</h5>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center text-uppercase my-5">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <!--<li class="breadcrumb-item"><a href="javascript:void(0)">Pages</a></li>-->
+                            <li class="breadcrumb-item text-white active" aria-current="page"><a class="text-white active" href="javascript:void(0)">Apropos</a></li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            <!-- Google Translate -->
+                    <div id="google_translate_element"></div>
+                    <script type="text/javascript">
+                        function googleTranslateElementInit() {
+                        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+                        }
+                    </script>
+                    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <!-- Google Translate -->
+        </div>
+	    <!-- Checkbox -->
+	     	<div class="check-box">
+			<small class="text-muted" style="font-size: 8px;">Dark Theme</small>
+			<input id="darkModeToggle" type="checkbox" title="Twinkle Theme">
+		</div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- About Start -->
+        <div class="container-xxl" id="index-about">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="row g-3">
+                            <div class="col-6 text-start">
+                                <img id="img-hover" class="img-fluid rounded w-100 wow zoomIn" alt="image-1" data-wow-delay="0.1s" src="img/ntahangwa.jpeg"/>
+                            </div>
+                            <div class="col-6 text-start">
+                                <img id="img-hover" class="img-fluid rounded w-75 wow zoomIn" alt="image-2" data-wow-delay="0.3s" src="img/rev.jpeg" style="margin-top: 25%;"/>
+                            </div>
+                            <div class="col-6 text-end">
+                                <img id="img-hover" class="img-fluid rounded w-75 wow zoomIn" alt="image-3 "data-wow-delay="0.5s" src="img/cepbu.jpeg"/>
+                            </div>
+                            <div class="col-6 text-end">
+                                <img id="img-hover" class="img-fluid rounded w-100 wow zoomIn" alt="image-4" data-wow-delay="0.7s" src="img/calvary-mountain-sunset-background-vector.webp"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+			<div class="text-center pb-3">
+                        <h5 class="section-title ff-secondary text-center text-primary fw-normal">About</h5>
+			</div>
+                        <h1 class="mb-4"><i class="fa fa-church text-primary me-2"></i> Bienvenue sur l'Eglise Pentecote de Bujumbura</h1>
+                        <p class="mb-4 text-justify">
+                        L'Eglise pentecote de Bujumbura a ete creer en 1960 par le missionaire thomas winbnert. Les Eglises de Pentecôte au Burundi étaient dirigées par la Mission Libre Suédoise (MLS) qui laissa place en 1962 à l’Association d’Entraide des Eglises de Pentecôte au Burundi, ADEEP.</p>
+                        <p class="mb-4 text-justify">
+                            En 1935, les premiers missionnaires pentecôtistes suédois arrivèrent au Burundi et commencèrent l’œuvre à Kayogoro et à Kiremba au sud du Pays. Les deux premières stations missionnaires propagèrent l’évangile dans les autres provinces du pays..
+                        </p>
+                        <div class="row g-4 mb-4">
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                                    <div class="ps-4">
+                                        <!-- <p class="mb-0">Years Since</p> -->
+                                        <h6 class="mb-0">Years Since 1960</h6>
+                                        <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">64</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                                    <div class="ps-4">
+                                        <!-- <p class="mb-0">Circussalles</p> -->
+                                        <h6 class="mb-0">Circussalles</h6>
+                                        <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">240</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                    </div>
+                    <div class="col-lg-12">
+			<div class="text-center pb-3">
+                        <h5 class="section-title ff-secondary text-center text-primary fw-normal">History</h5>
+			</div>
+                        <h1 class="mb-4 text-center"><i class="fa fa-history text-primary me-2"></i> Eglise Pentecote de Bujumbura</h1>
+                        <p class="mb-4 text-justify">
+                            En 1935, les premiers missionnaires pentecôtistes suédois arrivèrent au Burundi et commencèrent l’œuvre à Kayogoro et à Kiremba au sud du Pays. Les deux premières stations missionnaires propagèrent l’évangile dans les autres provinces du pays.
+
+                            De 1935 à 1960, les Eglises de Pentecôte au Burundi étaient dirigées par la Mission Libre Suédoise (MLS) qui laissa place en 1962 à l’Association d’Entraide des Eglises de Pentecôte au Burundi, ADEEP. Cette dernière poursuivra les activités jusqu’au moment où elle prit la nouvelle appellation « Communauté des Eglises de Pentecôte au Burundi, CEPBU » en 1975.
+
+                            Actuellement, la CEPBU est une Communauté formée par quinze principales Eglises locales (diocèses) et autonomes qui sont: KAYOGORO, KIREMBA, MUGARA, GISHIHA, BUJUMBURA, NYANZA-LAC, RUYIGI, KIGOZI, KARAMA, RUSAGARA, GITEGA, MUKONI, GASHIKANWA, KAGARI et  MARAMVYA. Ces Eglises sont réparties sur tout le territoire national. Chaque Eglise est composée de plusieurs succursales et de chapelles..
+                        </p>
+                    </div>
+                    <div class="col-lg-12">
+                        <!-- <h5 class="section-title ff-secondary text-start text-primary fw-normal">About Us</h5> -->
+                        <h1 class="mb-4 text-center"><i class="fa fa-scroll text-primary me-2"></i> Vision</h1>
+                        <p class="mb-4 text-justify">
+                            Eglise Pentecote <b>De Bujumbura</b> Notre vision est de voir chaque individu et famille transformés par la puissance de l'Esprit Saint et la vérité de l'Évangile. Nous aspirons à être une église dynamique et influente qui rayonne la lumière de Christ dans notre communauté et au-delà.
+                        </p>
+                    </div>
+                    <div class="col-lg-12">
+                        <!-- <h5 class="section-title ff-secondary text-start text-primary fw-normal">About Us</h5> -->
+                        <h1 class="mb-4 text-center"><i class="fa fa-crown text-primary me-2"></i> Mission</h1>
+                        <p class="mb-4 text-justify">
+                            Eglise Pentecote <b>De Bujumbura</b> Participer au développement de la population à travers les domaines prioritaires de la vie  dont entre autre la santé, l’éducation, la bonne gouvernance, la réhabilitation, le renforcement de la capacité, œuvres philanthropiques  et lutte contre les catastrophes naturelles.
+
+                            En vue d’appuyer les œuvres évangéliques des Eglises de Pentecôte au Burundi, EPBU,  la CEPBU a pour objectifs notamment de :
+                            
+                            <li>Assurer et coordonner toutes les activités sociales des Eglises de Pentecôte du Burundi ;</li>
+                            <li>Participer dans le développement de la population Burundaise dans les domaines très variés de sa vie par la construction des infrastructures sociales</li>
+                            Contribuer au développement intégral de la société burundaise
+
+                            
+                        </p>
+                    </div>
+                    <div class="col-lg-12">
+                        <!-- <h5 class="section-title ff-secondary text-start text-primary fw-normal">About Us</h5> -->
+                        <h1 class="mb-4 text-center"><i class="fa fa-crown text-primary me-2"></i> Objectifs</h1>
+                        <p class="mb-4 text-justify">
+                            Eglise Pentecote <b>De Bujumbura</b> Assurer un développement socio-économique durable à travers l’éducation et la formation, la santé, l’agriculture, la réintégration, la paix et la réconciliation pour promouvoir le bien être Social intégral dans la dignité humaine et le respect de l’intégrité Spirituelle. 
+                            En vue d’appuyer les œuvres évangéliques des Eglises de Pentecôte au Burundi, EPBU,  la CEPBU a pour objectifs notamment de :
+                            
+                            <li>Assurer et coordonner toutes les activités sociales des Eglises de Pentecôte du Burundi ;</li>
+                            <li>Participer dans le développement de la population Burundaise dans les domaines très variés de sa vie par la construction des infrastructures sociales</li>
+                            Contribuer au développement intégral de la société burundaise
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Saints Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center pb-3">
+                        <h5 class="section-title ff-secondary text-center text-primary fw-normal">Actualite</h5>
+                </div>
+                        <div class="row g-4">
+                            <div class="col-lg-4 col-sm-4 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="service-item rounded pt-3">
+                                    <div class="p-4">
+                                        <img class="flex-shrink-0 img-fluid px-1 py-1" src="img/image1.jpg" alt="" style="width: 80px;">
+                                        <!-- <i class="fa fa-3x fa-cross text-primary mb-4"></i> -->
+                                        <h5 class="text-primary">Jesus</h5>
+                                        <p class="text-justify">jesus a ete crucifie, pour nos peche a fin que nous y ont la vie eternelle.
+                                            jesus a ete crucifie, pour nos peche a fin que nous y ont la vie eternelle.
+                                            jesus a ete crucifie, pour nos peche a fin que nous y ont la vie eternelle.
+                                            jesus a ete crucifie, pour nos peche a fin que nous y ont la vie eternelle.
+                                            jesus a ete crucifie, pour nos peche a fin que nous y ont la vie eternelle.
+                                            Soit Bon Dieu vous donnera la courrone de vie.
+                                            Soit Bon Dieu vous donnera la courrone de vie.
+                                          
+                                        </p>
+                                        <a id="btn-center" class="btn-primary py-1 px-3 mb-5" href="https://cepbu.bi/historique/" target="_blank" rel="noreferrer">Read more <i class="fa fa-arrow-right"></i> </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="service-item rounded pt-3">
+                                    <div class="p-4">
+                                        <img class="flex-shrink-0 img-fluid px-1 py-1" src="img/image2.jpg" alt="" style="width: 80px;">
+                                        <!-- <i class="fa fa-3x fa-cross text-primary mb-4"></i> -->
+                                        <h5 class="text-primary">Bible</h5>
+                                        <p class="text-justify">Soit Bon Dieu vous donnera la courrone de vie.
+                                            Soit Bon Dieu vous donnera la courrone de vie.
+                                            Soit Bon Dieu vous donnera la courrone de vie.
+                                            Soit Bon Dieu vous donnera la courrone de vie.
+                                            jesus a ete crucifie, pour nos peche a fin que nous y ont la vie eternelle.
+                                            jesus a ete crucifie, pour nos peche a fin que nous y ont la vie eternelle.
+                                            Soit Bon Dieu vous donnera la courrone de vie.
+                                            Soit Bon Dieu vous donnera la courrone de vie.
+                                            Soit Bon Dieu vous donnera la courrone de vie.
+               
+        
+                                            
+                                        </p>
+                                        <a id="btn-center" class="btn-primary py-1 px-3 mb-5" href="https://cepbu.bi/historique/" target="_blank" rel="noreferrer">Read more <i class="fa fa-arrow-right"></i> </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-4 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="service-item rounded pt-3">
+                                    <div class="p-4">
+                                        <img class="flex-shrink-0 img-fluid px-1 py-1" src="img/rev.jpeg" alt="" style="width: 80px;">
+                                        <!-- <i class="fa fa-3x fa-cross text-primary mb-4"></i> -->
+                                        <h5 class="text-primary">Rev Rubwiririkanya Onesphore</h5>
+                                        <p class="text-justify"> L'Eglise pentecote de Bujumbura a ete creer en 1960 par le missionaire thomas winbnert. Les Eglises de Pentecôte au Burundi étaient dirigées par la Mission Libre Suédoise (MLS) qui laissa place en 1962 à l’Association d’Entraide des Eglises de Pentecôte au Burundi, ADEEP.
+                                            En 1935, les premiers missionnaires pentecôtistes suédois arrivèrent au Burundi et commencèrent l’œuvre à Kayogoro et à Kiremba au sud du Pays. Les deux premières stations missionnaires propagèrent l’évangile dans les autres provinces du pays..
+                                        </p>
+                                        <a id="btn-center" class="btn-primary py-1 px-3 mb-5" href="https://cepbu.bi/historique/" target="_blank" rel="noreferrer">Read more <i class="fa fa-arrow-right"></i> </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                                <div class="service-item rounded pt-3">
+                                    <div class="p-4">
+                                        <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                                        <h5>Sample Text</h5>
+                                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+        </div>
+        <!-- Saints End -->
+
+        <!-- Video Start -->
+                <div class="text-center container-xxl px-0 wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal py-4">Video</h5>
+                    <div class="row g-0">
+                        <div class="col-md-12">
+                            <div class="video">
+                                <button type="button" class="btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/pQMWk4xqUAA" data-bs-target="#videoModal">
+                                    <span></span>
+                                </button>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+        
+                <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content rounded-0">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel"><i class="fa fa-video me-3 text-danger"></i>Youtube Video</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body p-lg-1">
+                                <!-- 16:9 aspect ratio -->
+                                <div class="ratio ratio-16x9">
+                                    <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                                        allow="autoplay"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <!-- Video End -->
+        
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark-2 text-light footer pt-5 mt-1 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-3 b-top">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Church</h4>
+                        <a class="btn btn-link" href="about.html">About Us</a>
+                        <a class="btn btn-link" href="contact.html">Contact Us</a>
+                        <a class="btn btn-link" href="devellopement.html">Bookings</a>
+                        <a class="btn btn-link" href="#">Privacy Policy</a>
+                        <a class="btn btn-link" href="#">Terms & Condition</a>
+                    </div>
+			
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
+                        <p class="mb-2 btn-link"><i class="fa fa-map-marker-alt me-3"></i><a class="text-light" href="https://goo.gl/maps/bPcQHy4m9zeorK3y9" target="_blank">Avenue de l'Universite</a></p>
+                        <p class="mb-2 btn-link"><i class="fa fa-phone-square me-3"></i><a class="text-light" href="tel:0469 2668858">+25779733075</a></p>
+                        <p class="mb-2 btn-link"><i class="fa fa-envelope me-3"></i><a class="text-light" href="mailto:margregorioschurch71@gmail.com">iradaimable17@gmail.com</a></p>
+                       
+		     <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social text-primary" href="#"><i class="fab fa-whatsapp"></i></a>
+                            <a class="btn btn-outline-light btn-social text-primary" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social text-primary" href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social text-primary" href="#" target="_blank"><i class="fab fa-internet-explorer"></i></a>
+                        </div>
+                    </div>
+			
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Service</h4>
+                        <h5 class="text-light fw-normal">Dimanche</h5>
+                        <p><i class="fa fa-clock me-3"></i>08:30AM - 11:30AM</p>
+                        <h5 class="text-light fw-normal">Monday - Friday</h5>
+                        <p><i class="fa fa-clock me-3"></i>16:30-18PM</p>
+                    </div>
+			
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">S'Inscrire</h4>
+                        <p>S'inscrire pour plus d'information.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <form id="myform">
+                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" name="email" type="text" placeholder="Your email" required>
+                            <input type="submit" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"></input>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+		    <!--Counter-->
+		   
+		    <!--Counter-->
+            </div>	
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Eglise Pentecote De Bujumbura</a>, All Right Reserved. 
+							
+			<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+			<!-- Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a><br><br>
+                        Distributed By <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a> -->
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="index.html">Home</a>
+                                <a href="#">Cookies</a>
+                                <a href="#">Help</a>
+                                <a href="#">FQAs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    <!--<a id="new_counter" href='http://www.freevisitorcounters.com' style="color:transparent">freevisitorcounters.com</a>
+    		    <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=d79198028b524b7db87c3ec2d625a1e3f6598080'></script>
+    	  	    <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1024946/t/5"></script>-->
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!--Counter-->
+        <!--<div class="counter">
+            <div class="head"><span class="fa fa-globe"></span>&nbsp;Visitors Counter</div>
+            <div class="count" id="CounterVisitorNo">0</div>
+        </div>-->
+        <!--END Counter-->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/visitors.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/2.12.0/tsparticles.bundle.min.js"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>-->
+    <script>
+        $("#submitForm").click(function() {
+           alert("The Form has been Submitted.");
+        });
+     </script>
+</body>
+
+</html>
